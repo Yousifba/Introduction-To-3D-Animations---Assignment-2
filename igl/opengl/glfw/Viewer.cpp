@@ -358,7 +358,7 @@ namespace igl
 
 			int Viewer::load_meshs()
 			{
-				std::ifstream in("/../../configuration.txt");
+				std::ifstream in("./configuration.txt");
 				int cnt = 0;
 				if (!in)
 				{
